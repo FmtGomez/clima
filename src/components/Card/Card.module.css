@@ -1,0 +1,42 @@
+.contenedor{
+
+    width: 325px;
+    height: 200px;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    border: 2px solid;
+
+}
+
+.name{
+    align-self: center;
+}
+
+
+.temp{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.button{
+    width: 30px;
+    background-color:  rgb(155, 6, 6);
+    align-self: end;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */

@@ -1,0 +1,30 @@
+.nav{
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center
+    
+  }
+
+  .logoP{
+    display: flex;
+    margin-left: 10px;
+    height: 40px;    
+    margin-top: 5px;
+  }
+
+  .logoHenry {
+    margin-right: 20px;
+  }
+
+  p{
+    color: #fff;
+    padding-top: 0px;
+    align-self: center;
+  
+  }
+  
+  a {
+      text-decoration: none;
+  }
