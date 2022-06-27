@@ -31,3 +31,21 @@ export function cityDetail(cityId){
         payload: cityId
     }
 }
+
+//----EJEMPLO CON AXIOS
+
+// export function getRecipeName(name){
+//     return async function (dispatch){
+
+//         try{
+//             let response = await axios.get(`${LOCAL_HOST}/recipes?name=${name}`);
+            
+//             return dispatch({
+//                 type: GET_RECIPE_NAME,
+//                 payload: response.data
+//             })
+//         }catch{
+//             return alert("Recipe not found")
+//         };
+//     };
+// };

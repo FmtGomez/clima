@@ -10,16 +10,13 @@ export default function Card(props) {
 
     const dispatch = useDispatch()
 
-
-
-
     return (
         <div className={x.contenedor}>
 
     
             <button className={x.button} onClick={() => dispatch(cityDelete(props.id))}>X</button>
            
-            <Link className={x.name} to={`/city/${props.id}`} ><h2>{props.name}</h2></Link>
+            <h2>{props.name}</h2>
 
             <div className={x.temp}>                                
                 <div>

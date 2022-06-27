@@ -10,13 +10,13 @@ export default function rootReducer(state = initialState, action){
     switch (action.type){
         case GET_CITY:
             const cityfound = state.cities.find(x => x.id === action.payload.id)
+            console.log(action.payload)
+            if(action.payload.message) return alert("Ciudad no encontrada")
             if(cityfound){
                  return alert("Ciudad Repetida")
             }else{
-
                 return{
                     ...state,
-    
                     cities: [...state.cities,action.payload]
                 }
             }

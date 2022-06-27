@@ -10,11 +10,14 @@ import CityDetail from "./components/City/CityDetail.js";
 function App() {
   return (
     
- <React.Fragment>
-   <Route path="/" component= {Nav}/>
+ <div className="app">
+   {/* <Route path="/" component= {Nav}/>
    <Route exact path="/" component = {Cards} />
-   <Route exact path="/city/:id" component={CityDetail}/>
- </React.Fragment>
+   <Route exact path="/city/:id" component={CityDetail}/> */}
+   <Nav/>
+   <Cards/>
+   
+ </div>
   );
 }
 
