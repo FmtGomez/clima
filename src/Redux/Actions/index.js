@@ -8,7 +8,7 @@ const apiKey = "c87b1e12a44331bcdcd3c593c538c64b"
 export  function onSearch(city){
 
     return function(dispath){
-       return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+       return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
        .then(respose => respose.json())
        .then(json => dispath({
            type: GET_CITY,
